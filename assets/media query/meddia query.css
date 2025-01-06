@@ -1,0 +1,133 @@
+@media (max-width: 1024px) {
+    #frame2 {
+      width: 37vw !important;
+      height: 50%;
+    }
+    main .contact-section .contact .contact-info {
+      padding: 3vw 3vw !important;
+    }
+    .our-service .service .card {
+      width: 25rem !important;
+    }
+    main .our-service .service .card-icon {
+      width: 10vw;
+    }
+    main .our-service .service .card-icon i {
+      font-size: 3.5vw !important;
+    }
+    main .our-service .service .card-para p {
+      /* font-size: 1.7vw; */
+    }
+    main .contact-section .contact .contact-form form input,
+    select,
+    button {
+      width: 49vw;
+      margin: 20px 0;
+    }
+    main .message-section .message .message-vid-btn button {
+      width: 37vw;
+    }
+    .our-service2 .service2 .card {
+      width: 32rem !important;
+    }
+    main .swiper .swiper-slide img {
+      width: 150px;
+    }
+    main .banner-section .video .banner-h1 h1 {
+      font-size: 9vw;
+    }
+    main .banner-section .video .banner-h2 h2 {
+      font-size: 6vw !important;
+    }
+    main .banner-section .video .banner-para {
+      width: 22%;
+    }
+    main .banner-section .banner-btn {
+      bottom: 14%;
+      width: 100% !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .our-service .service .card {
+      width: 96vw !important;
+      margin: auto;
+    }
+  
+    main .our-service .service .card-icon {
+      width: 16vw;
+    }
+    main .our-service .service .card-icon {
+      padding: 39px 34px;
+      top: 11%;
+      left: 42%;
+    }
+    main .our-service .service .card-icon i {
+      font-size: 5.5vw !important;
+    }
+    #card {
+      width: 91vw !important;
+      margin: auto;
+    }
+    #frame2 {
+      width: 92vw !important;
+      height: 77%;
+    }
+    .our-team .team .card {
+      width: 90vw !important;
+      margin: auto;
+    }
+    .our-blog .blog .card {
+      width: 88vw !important;
+      margin: auto;
+    }
+    .banner-section .banner-btn {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+    }
+    main .banner-section .video .banner-para {
+      width: 41%;
+    }
+  }
+  @media (max-width: 500px) {
+    .logo img {
+      width: 10rem !important;
+    }
+    main .banner-section .video .menu-btn button {
+      padding: 7px 25px;
+      width: 123px;
+    }
+    .ham-overlay .ham-nav-list {
+      width: 100% !important;
+    }
+    main .banner-section .video .banner-para {
+      width: 67%;
+    }
+    .ham-logo img {
+      width: 22rem !important;
+    }
+    .navbar {
+      gap: 15px !important;
+    }
+    main .contact-section .contact .contact-form form input,
+    select,
+    button {
+      width: 96vw;
+      margin: 20px 0;
+    }
+    .choose-us .choose .choose-us-bg1 .chooseus-container{
+      width: 100%!important;
+      padding: 0 26px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    #frame2 {
+      width: 37vw;
+      height: 70%;
+    }
+    .banner-btn {
+      display: block;
+    }
+  }
+  
