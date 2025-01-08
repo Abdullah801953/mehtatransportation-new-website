@@ -117,6 +117,29 @@ header nav ul li .saperator {
   top: 12px;
   left: 257px;
 }
+<<<<<<< HEAD
+=======
+header nav ul li .ct-num:hover {
+  color: #ffc038;
+  transition: all 0.4s ease-in-out;
+}
+header nav ul li .mail-info:hover {
+  color: #ffc038;
+  transition: all 0.4s ease-in-out;
+}
+header nav ul li .erp-log:hover {
+  color: #ffc038;
+  transition: all 0.4s ease-in-out;
+}
+header nav ul li .track-cons:hover {
+  color: #ffc038;
+  transition: all 0.4s ease-in-out;
+}
+.social-icon svg:hover {
+  scale: 1.2;
+  transition: all 0.4s ease-in-out;
+}
+>>>>>>> bad193b (mehta commit 2)
 /* banner style */
 main .video .banner-header {
   padding: 10px 40px 10px 40px;
@@ -124,7 +147,11 @@ main .video .banner-header {
 }
 .responsive-video {
   width: 100%;
+<<<<<<< HEAD
   height: 700px;
+=======
+  height: 858px;
+>>>>>>> bad193b (mehta commit 2)
   object-fit: cover;
   display: block;
 }
@@ -149,17 +176,31 @@ main .banner-section .video .logo {
 main .banner-section .video .menu-btn {
   padding: 10px;
 }
+<<<<<<< HEAD
 main .banner-section .video .menu-btn button {
+=======
+main .banner-section .video .menu-btn button span {
+>>>>>>> bad193b (mehta commit 2)
   color: #1f1f2e;
   background-color: var(--color-primary);
   font-size: 18px;
   font-weight: 600;
   border-radius: 5% 5% 5% 5%;
+<<<<<<< HEAD
   padding: 11px 30px;
   border: none;
   font-size: 18px;
   width: auto;
 }
+=======
+  padding: 13px 10px;
+  border: none;
+  font-size: 18px;
+  width: 122px;
+  height: 44px;
+}
+
+>>>>>>> bad193b (mehta commit 2)
 main .banner-section .video .banner-h2 h2 {
   color: #ffffff;
   font-family: "Poppins", Sans-serif;
@@ -176,7 +217,11 @@ main .banner-section .video .banner-para {
   width: 40%;
 }
 main .banner-section .banner-info {
+<<<<<<< HEAD
   top: 30%;
+=======
+  top: 39%;
+>>>>>>> bad193b (mehta commit 2)
 }
 main .banner-section .mouse {
   border-color: #ffffff;
@@ -216,6 +261,12 @@ main .banner-section .banner-btn button {
   font-weight: 600;
 }
 /* about style */
+<<<<<<< HEAD
+=======
+main #about-section {
+  background-color: #f5f5f5;
+}
+>>>>>>> bad193b (mehta commit 2)
 main #about-section .about h4 {
   color: var(--color-secondary);
   font-family: "Poppins", Sans-serif;
@@ -266,9 +317,20 @@ main #about-section .about .yt-icon {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+<<<<<<< HEAD
 /* contact style */
 main .contact-section .contact {
   background-color: #f2f2f4;
+=======
+.about-banner-bg {
+  background-color: #ffe098;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+/* contact style */
+main .contact-section .contact {
+  background-color: #e0e0f2;
+>>>>>>> bad193b (mehta commit 2)
 }
 main .contact-section .contact-form {
   background-color: #1f1f2e;
@@ -300,9 +362,16 @@ main .contact-section .contact .contact-info {
   padding: 102px 78px !important;
 }
 main .contact-section .contact .contact-form form input,
+<<<<<<< HEAD
 select,
 button {
   width: 27vw;
+=======
+button {
+  margin: 20px 0;
+}
+main .contact-section .contact .contact-form form select {
+>>>>>>> bad193b (mehta commit 2)
   margin: 20px 0;
 }
 main .contact-section .contact .contact-form form button {
@@ -325,6 +394,12 @@ main .contact-section .contact .contact-form form input:hover {
   border-radius: 3px;
   transition: 0.2s ease-in-out;
 }
+<<<<<<< HEAD
+=======
+.contact-form form button:hover {
+  background-color: #c08d21 !important;
+}
+>>>>>>> bad193b (mehta commit 2)
 /* services style */
 main .our-service .service .service-h5 h5 {
   color: var(--color-secondary);
@@ -346,7 +421,10 @@ main .our-service .service .card-icon {
   padding: 32px 27px;
   top: 7%;
   left: 30%;
+<<<<<<< HEAD
   width: 37%;
+=======
+>>>>>>> bad193b (mehta commit 2)
 }
 main .our-service .service .card-h5 {
   color: #000000;
@@ -369,6 +447,13 @@ main .our-service .service .card-link a {
   font-weight: 500;
   margin-top: 0px;
 }
+<<<<<<< HEAD
+=======
+main .our-service .service .card-link a:hover {
+  scale: 1.1;
+  transition: all 0.4s ease-in;
+}
+>>>>>>> bad193b (mehta commit 2)
 /* choose us style */
 main .choose-us .choose-us-bg1 {
   background-image: url(assets/img/many-transport-trucks-parked-service-station-sunset-ai-generative-1.jpg);
@@ -376,10 +461,17 @@ main .choose-us .choose-us-bg1 {
   height: 500px;
   padding: 100px 0;
 }
+<<<<<<< HEAD
 main .choose-us .choose-list li{
   font-family: "Poppins", Sans-serif;
     font-size: 16px;
     font-weight: 600;
+=======
+main .choose-us .choose-list li {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+>>>>>>> bad193b (mehta commit 2)
 }
 main .choose-us .choose-us-bg2 {
   background-image: url(assets/img/2-1-scaled.jpg);
@@ -440,6 +532,13 @@ main .choose-us .choose-h2-right h2 {
 .choose-list ul i {
   margin-right: 12px !important;
 }
+<<<<<<< HEAD
+=======
+.choose-btn button:hover {
+  scale: 1.1;
+  transition: all 0.4s ease-in;
+}
+>>>>>>> bad193b (mehta commit 2)
 /* service2 style */
 main .our-service2 .service-2 .service-h5 h5 {
   color: #ffb407;
@@ -504,7 +603,11 @@ main .message-section .message .message-btn button {
   font-weight: 600;
   fill: #ffffff;
   color: #ffffff;
+<<<<<<< HEAD
   border-radius: 5px 5px 5px 5px;
+=======
+  border-radius: 0;
+>>>>>>> bad193b (mehta commit 2)
   border: none;
   padding: 12px 9px;
 }
@@ -607,6 +710,20 @@ main .message-parallax {
   background-color: #212d45;
   opacity: 0.7;
 }
+<<<<<<< HEAD
+=======
+.message-btn button:hover {
+  background-color: #ebad27 !important;
+  color: #000000 !important;
+  scale: 1.1;
+  transition: all 0.4s ease-in;
+}
+.message-vid-btn button:hover {
+  background-color: #ebad27 !important;
+  scale: 1.1;
+  transition: all 0.4s ease-in;
+}
+>>>>>>> bad193b (mehta commit 2)
 /* our service3 style */
 main .service3-section .service3-form {
   background-color: #1f1f2e;
@@ -691,7 +808,26 @@ main .our-team .team .team-btn button {
   font-weight: 600;
   fill: #ffffff;
   color: #ffffff;
+<<<<<<< HEAD
   border-radius: 5px 5px 5px 5px;
+=======
+  border: none;
+}
+main .our-team .team .team-btn button:hover {
+  background-color: #ebad27;
+  transition: all 0.4s ease-in;
+  color: black;
+}
+main .our-team .team .card img {
+  height: 306px;
+  width: 296px;
+  margin: 0 auto;
+}
+main .our-team .team .card .card-link svg:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+>>>>>>> bad193b (mehta commit 2)
 }
 /* our client style */
 main .client-section .client-info {
@@ -786,6 +922,14 @@ main .our-blog .blog .blog-btn button {
   margin-top: 20px;
   border: none;
 }
+<<<<<<< HEAD
+=======
+main .our-blog .blog .blog-btn button:hover {
+  background-color: #ebad27;
+  transition: all 0.4s ease-in;
+  color: black;
+}
+>>>>>>> bad193b (mehta commit 2)
 /* footer style */
 footer .footer-container {
   background-color: #141420;
@@ -831,9 +975,29 @@ footer .footer-container .download-h4 h4 {
 footer .footer-container .quick-link ul li {
   padding: 10px 0 !important;
 }
+<<<<<<< HEAD
 footer .footer-container .our-service-link ul li {
   padding: 10px 0 !important;
 }
+=======
+footer .footer-container .quick-link ul li a:hover {
+  color: #fdbd36;
+}
+footer .footer-container .quick-link ul li:hover {
+  transform: translateX(5px);
+  transition: all 0.4s ease-in-out;
+}
+footer .footer-container .our-service-link ul li {
+  padding: 10px 0 !important;
+}
+footer .footer-container .our-service-link ul li a:hover {
+  color: #fdbd36;
+}
+footer .footer-container .our-service-link ul li:hover {
+  transform: translateX(5px);
+  transition: all 0.4s ease-in-out;
+}
+>>>>>>> bad193b (mehta commit 2)
 footer .copy-right {
   background-color: #393950 !important;
 }
@@ -846,6 +1010,12 @@ footer .footer-container .footer-address .address strong {
   font-size: 14px;
   color: #ffffff;
 }
+<<<<<<< HEAD
+=======
+footer .footer-container .footer-address .address strong:hover {
+  color: #fdbd36;
+}
+>>>>>>> bad193b (mehta commit 2)
 footer .footer-container .footer-address ul li i {
   margin-right: 13px;
 }
@@ -853,6 +1023,7 @@ footer .footer-container .footer-line {
   background-color: var(--color-primary);
   padding: 1px 0;
 }
+<<<<<<< HEAD
 /* hamburger overlay style */
 body .ham-overlay {
   background-color: black;
@@ -884,11 +1055,36 @@ body .ham-overlay .ham-nav-list .cout-icon-width {
   width: 10%;
 }
 body .ham-overlay .ham-nav-list .ham-h5 h5 {
+=======
+.footer-address li a:hover {
+  color: #fdbd36;
+}
+.mobile-stores img {
+  cursor: pointer;
+}
+/* hamburger overlay style */
+#offcanvasNavbar {
+  background-color: #141420;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+.follow a {
+>>>>>>> bad193b (mehta commit 2)
   color: #fdbd36;
   font-family: "Poppins", Sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
+<<<<<<< HEAD
 body .ham-overlay .ham-nav-list .ham-line {
   background-color: var(--color-primary);
   padding: 1px 0;
@@ -1143,3 +1339,27 @@ background-size: 0;
 
 
 
+=======
+.download-app a {
+  color: #fdbd36;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline;
+}
+.offcanvas-body {
+  padding: 2rem !important;
+}
+.offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+  color: #fdbd36;
+}
+.canva-bottom {
+  padding: 1rem 2rem;
+}
+.canva-bottom .social-icons svg:hover {
+  scale: 1.2;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+/* about us style */
+>>>>>>> bad193b (mehta commit 2)
